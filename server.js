@@ -269,7 +269,7 @@ app.get('/conversations', (req, res) => {
     res.json({ conversations: list });
 });
 
-// ─── Serve simple chat UI ───
+// ─── Serve simple  UI ───
 app.get('/', (req, res) => {
     res.send(`
 <!DOCTYPE html>
