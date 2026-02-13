@@ -269,7 +269,7 @@ app.get('/conversations', (req, res) => {
     res.json({ conversations: list });
 });
 
-// ─── Serve simple  UI ───
+// ─── Serve simple  UI for Ai ───
 app.get('/', (req, res) => {
     res.send(`
 <!DOCTYPE html>
